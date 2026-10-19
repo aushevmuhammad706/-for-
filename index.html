@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <!-- <header>
+        <img src="img" alt="">
+        <div class="logo">logo
+             </div>
+        <div class="navigation">
+            <a href="">Главная</a>
+            <a href="">О нас</a>
+            <a href="">Конаткы</a>
+         </div>
+        <div class="autorization"> "autorization</div>
+    </header> -->
+
+    <script>
+      // let users = ["Иван", "Аоекс", "Муса", "Чанган"]
+      // for(let i = 0; i < users.length; i ++){
+      //     console.log(users[i]);
+
+      // }
+      // // перебор массива с конца
+      // let users2 = ["Иван", "Аоекс", "Муса", "Чанган"]
+
+      // for( let j = users2.length -1; j >= 0; j --);{
+      //     console.log(users2[j]);
+
+      // }
+
+      // let marka = ["bmw", "changan", "tesla", "mers", "lada"]
+      // for(let i = marka.length -1; i >=0; i--){
+      //     console.log(marka[i]);
+
+      // }
+
+      // let students = [
+      //     {
+      //         name: "alex",
+      //         lastName: "alexow",
+      //         group: "2p2"
+
+      //     },
+      //     {
+      //         name: "Maga",
+      //         lastName: "Ivanow",
+      //         group: "2p9"
+
+      //     },
+      //     {
+      //         name: "gaga",
+      //         lastName: "gagow",
+      //         group: "2p11"
+
+      //     },
+      // ]
+
+      // for(let i=0; i<students.length; i++){
+      //     console.log(students[i].group);
+
+      // }
+
+      // Цик for...of для массива
+
+      // let cars= ["bmw","lada", "UFc"]
+      // for(const element of cars){
+      //     console.log(element + ' - МАфинка');
+
+      // }
+
+      // let users = ["MAga", "gaga", "Bekzat", "Murad", "Hamzat"]
+      // for(let element of users){
+      //     console.log( "Пользоватли - " + element);
+
+      // }
+
+      //------------------------------------- for...in цик для объектов
+
+      // let car ={
+      //     marka: "Bmw",
+      //     model: "m5",
+      //     year: 2025
+      // }
+
+      // for(const key in car){
+      //     console.log(car[key]);
+
+      // }
+
+      let student2 = {
+        name: "Maga",
+        lastName: "magaev",
+        group: "2p2",
+      };
+
+      //----------------------------------------- Object.keys() - перебирает ключи объекта
+
+      // console.log(Object.keys(student2));
+
+      //------------------------------------------------------- Object values() - перебирает все значаения обхекта
+
+      // console.log(Object.values(student2));
+
+      //------------------------------------------------------------------- Object.entires() - перебирает ключи и значения
+      // console.log(Object.entries(student2));
+
+      let cars = [
+        {
+          marka: "bMW",
+          model: "m5",
+          year: 2015,
+          color: "black",
+        },
+        {
+          marka: "lada",
+          model: "m5",
+          year: 2015,
+          color: "black",
+        },
+        {
+          marka: "mers",
+          model: "m5",
+          year: 2015,
+          color: "black",
+        },
+        {
+          marka: "audi",
+          model: "m5",
+          year: 2015,
+          color: "black",
+        },
+      ];
+
+      for (let i = 0; i < cars.length; i++) {
+        console.log(Object.values(cars[i]));
+      }
+
+      for (let elem of cars) {
+        console.log(Object.values(elem));
+      }
+    </script>
+  </body>
+</html>
